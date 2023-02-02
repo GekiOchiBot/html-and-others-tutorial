@@ -1,0 +1,16 @@
+/*
+    cssでのコメントアウト
+    .クラス名とすることでクラス名がついているhtmlをいじれるようになる。
+    .クラス名:hoverでマウスカーソルが上にある時、というのができる。
+*/
+.button{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+.button:hover{
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+.txa.value{
+    text-align: center;
+}
